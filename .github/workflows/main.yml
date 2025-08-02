@@ -20,7 +20,9 @@ jobs:
         uses: Zqzqsb/MultiSourceSnake@v1.0
         with:
           GITHUB_USER: agmtopy
+          GITEE_USER: agmtopy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITEE_TOKEN: aaa
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
